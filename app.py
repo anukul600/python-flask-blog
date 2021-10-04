@@ -105,8 +105,6 @@ def editPost(id):
         post_id.title = request.form['title']
         post_id.Content = request.form['Content']
         post_id.Author = request.form['Author']
-        
-       
 
         db.session.commit()
 
@@ -119,8 +117,3 @@ def editPost(id):
 
 if __name__ == "__main__":
     app.run(debug=True, port= 5000)
-    
-    
-#great app
-#valid me for PR in HAcktoberfest 2021
-    
